@@ -11,9 +11,9 @@
 		9DD7341823BA1E3B007B98A3 /* LocPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD7340E23BA1E3B007B98A3 /* LocPicker.framework */; };
 		9DD7341D23BA1E3B007B98A3 /* LocPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7341C23BA1E3B007B98A3 /* LocPickerTests.swift */; };
 		9DD7341F23BA1E3B007B98A3 /* LocPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD7341123BA1E3B007B98A3 /* LocPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DD7342A23BA1F8D007B98A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342923BA1F8D007B98A3 /* SwiftPackageProductDependency */; };
-		9DD7342D23BA1FA6007B98A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342C23BA1FA6007B98A3 /* SwiftPackageProductDependency */; };
-		9DD7343023BA1FC6007B98A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342F23BA1FC6007B98A3 /* SwiftPackageProductDependency */; };
+		9DD7342A23BA1F8D007B98A3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342923BA1F8D007B98A3 /* Alamofire */; };
+		9DD7342D23BA1FA6007B98A3 /* SASLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342C23BA1FA6007B98A3 /* SASLogger */; };
+		9DD7343023BA1FC6007B98A3 /* APILib in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342F23BA1FC6007B98A3 /* APILib */; };
 		9DD7343723BA21A3007B98A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7343523BA219A007B98A3 /* Assets.xcassets */; };
 		9DD7344323BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7343A23BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift */; };
 		9DD7344423BA21CB007B98A3 /* NearByPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7343B23BA21CB007B98A3 /* NearByPlacesViewModel.swift */; };
@@ -23,8 +23,8 @@
 		9DD7344823BA21CB007B98A3 /* PickerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7344123BA21CB007B98A3 /* PickerMapViewController.swift */; };
 		9DD7344923BA21CB007B98A3 /* PickerMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7344223BA21CB007B98A3 /* PickerMapViewModel.swift */; };
 		9DD7344A23BA21FC007B98A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7343223BA2135007B98A3 /* Main.storyboard */; };
-		9DD7344D23BA226C007B98A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7344C23BA226C007B98A3 /* SwiftPackageProductDependency */; };
-		9DD7344F23BA226C007B98A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7344E23BA226C007B98A3 /* SwiftPackageProductDependency */; };
+		9DD7344D23BA226C007B98A3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7344C23BA226C007B98A3 /* SDWebImage */; };
+		9DD7344F23BA226C007B98A3 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7344E23BA226C007B98A3 /* SDWebImageMapKit */; };
 		9DD7345423BA232B007B98A3 /* LocModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345123BA232B007B98A3 /* LocModel.swift */; };
 		9DD7345523BA232B007B98A3 /* NearbyPlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345223BA232B007B98A3 /* NearbyPlacesModel.swift */; };
 		9DD7345623BA232B007B98A3 /* ModelClassResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345323BA232B007B98A3 /* ModelClassResponse.swift */; };
@@ -38,7 +38,7 @@
 		9DD7346B23BA23A6007B98A3 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7346023BA23A6007B98A3 /* Const.swift */; };
 		9DD7346C23BA23A6007B98A3 /* SetImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7346123BA23A6007B98A3 /* SetImg.swift */; };
 		9DD7346D23BA23A6007B98A3 /* Picker_PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7346223BA23A6007B98A3 /* Picker_PlaceMarker.swift */; };
-		9DD7347023BA23E8007B98A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7346F23BA23E8007B98A3 /* SwiftPackageProductDependency */; };
+		9DD7347023BA23E8007B98A3 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7346F23BA23E8007B98A3 /* NVActivityIndicatorView */; };
 		9DD7347523BA2432007B98A3 /* UIStoryboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347223BA2432007B98A3 /* UIStoryboard+Ext.swift */; };
 		9DD7347623BA2432007B98A3 /* UIDevice+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347323BA2432007B98A3 /* UIDevice+Ext.swift */; };
 		9DD7347723BA2432007B98A3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347423BA2432007B98A3 /* UIViewController+Ext.swift */; };
@@ -119,13 +119,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD7342D23BA1FA6007B98A3 /* BuildFile in Frameworks */,
-				9DD7343023BA1FC6007B98A3 /* BuildFile in Frameworks */,
-				9DD7347023BA23E8007B98A3 /* BuildFile in Frameworks */,
-				9DD7342A23BA1F8D007B98A3 /* BuildFile in Frameworks */,
-				9DD7344F23BA226C007B98A3 /* BuildFile in Frameworks */,
+				9DD7342D23BA1FA6007B98A3 /* SASLogger in Frameworks */,
+				9DD7343023BA1FC6007B98A3 /* APILib in Frameworks */,
+				9DD7347023BA23E8007B98A3 /* NVActivityIndicatorView in Frameworks */,
+				9DD7342A23BA1F8D007B98A3 /* Alamofire in Frameworks */,
+				9DD7344F23BA226C007B98A3 /* SDWebImageMapKit in Frameworks */,
 				9DD7350223BA3403007B98A3 /* Pods_LocPicker.framework in Frameworks */,
-				9DD7344D23BA226C007B98A3 /* BuildFile in Frameworks */,
+				9DD7344D23BA226C007B98A3 /* SDWebImage in Frameworks */,
 				F3133A846F29B900779B29B4 /* Pods_LocPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,12 +339,12 @@
 			);
 			name = LocPicker;
 			packageProductDependencies = (
-				9DD7342923BA1F8D007B98A3 /* SwiftPackageProductDependency */,
-				9DD7342C23BA1FA6007B98A3 /* SwiftPackageProductDependency */,
-				9DD7342F23BA1FC6007B98A3 /* SwiftPackageProductDependency */,
-				9DD7344C23BA226C007B98A3 /* SwiftPackageProductDependency */,
-				9DD7344E23BA226C007B98A3 /* SwiftPackageProductDependency */,
-				9DD7346F23BA23E8007B98A3 /* SwiftPackageProductDependency */,
+				9DD7342923BA1F8D007B98A3 /* Alamofire */,
+				9DD7342C23BA1FA6007B98A3 /* SASLogger */,
+				9DD7342F23BA1FC6007B98A3 /* APILib */,
+				9DD7344C23BA226C007B98A3 /* SDWebImage */,
+				9DD7344E23BA226C007B98A3 /* SDWebImageMapKit */,
+				9DD7346F23BA23E8007B98A3 /* NVActivityIndicatorView */,
 			);
 			productName = LocPicker;
 			productReference = 9DD7340E23BA1E3B007B98A3 /* LocPicker.framework */;
@@ -398,11 +398,11 @@
 			);
 			mainGroup = 9DD7340423BA1E3B007B98A3;
 			packageReferences = (
-				9DD7342823BA1F8D007B98A3 /* RemoteSwiftPackageReference */,
-				9DD7342B23BA1FA6007B98A3 /* RemoteSwiftPackageReference */,
-				9DD7342E23BA1FC6007B98A3 /* RemoteSwiftPackageReference */,
-				9DD7344B23BA226C007B98A3 /* RemoteSwiftPackageReference */,
-				9DD7346E23BA23E8007B98A3 /* RemoteSwiftPackageReference */,
+				9DD7342823BA1F8D007B98A3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9DD7342B23BA1FA6007B98A3 /* XCRemoteSwiftPackageReference "SASLogger" */,
+				9DD7342E23BA1FC6007B98A3 /* XCRemoteSwiftPackageReference "APILib" */,
+				9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				9DD7346E23BA23E8007B98A3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
 			);
 			productRefGroup = 9DD7340F23BA1E3B007B98A3 /* Products */;
 			projectDirPath = "";
@@ -810,7 +810,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9DD7342823BA1F8D007B98A3 /* RemoteSwiftPackageReference */ = {
+		9DD7342823BA1F8D007B98A3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -818,7 +818,7 @@
 				minimumVersion = 4.9.1;
 			};
 		};
-		9DD7342B23BA1FA6007B98A3 /* RemoteSwiftPackageReference */ = {
+		9DD7342B23BA1FA6007B98A3 /* XCRemoteSwiftPackageReference "SASLogger" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AnupSukumaran/SASLogger.git";
 			requirement = {
@@ -826,7 +826,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		9DD7342E23BA1FC6007B98A3 /* RemoteSwiftPackageReference */ = {
+		9DD7342E23BA1FC6007B98A3 /* XCRemoteSwiftPackageReference "APILib" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AnupSukumaran/APILib.git";
 			requirement = {
@@ -834,7 +834,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		9DD7344B23BA226C007B98A3 /* RemoteSwiftPackageReference */ = {
+		9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
@@ -842,7 +842,7 @@
 				minimumVersion = 5.4.1;
 			};
 		};
-		9DD7346E23BA23E8007B98A3 /* RemoteSwiftPackageReference */ = {
+		9DD7346E23BA23E8007B98A3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
 			requirement = {
@@ -853,34 +853,34 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9DD7342923BA1F8D007B98A3 /* SwiftPackageProductDependency */ = {
+		9DD7342923BA1F8D007B98A3 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DD7342823BA1F8D007B98A3 /* RemoteSwiftPackageReference */;
+			package = 9DD7342823BA1F8D007B98A3 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		9DD7342C23BA1FA6007B98A3 /* SwiftPackageProductDependency */ = {
+		9DD7342C23BA1FA6007B98A3 /* SASLogger */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DD7342B23BA1FA6007B98A3 /* RemoteSwiftPackageReference */;
+			package = 9DD7342B23BA1FA6007B98A3 /* XCRemoteSwiftPackageReference "SASLogger" */;
 			productName = SASLogger;
 		};
-		9DD7342F23BA1FC6007B98A3 /* SwiftPackageProductDependency */ = {
+		9DD7342F23BA1FC6007B98A3 /* APILib */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DD7342E23BA1FC6007B98A3 /* RemoteSwiftPackageReference */;
+			package = 9DD7342E23BA1FC6007B98A3 /* XCRemoteSwiftPackageReference "APILib" */;
 			productName = APILib;
 		};
-		9DD7344C23BA226C007B98A3 /* SwiftPackageProductDependency */ = {
+		9DD7344C23BA226C007B98A3 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DD7344B23BA226C007B98A3 /* RemoteSwiftPackageReference */;
+			package = 9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
-		9DD7344E23BA226C007B98A3 /* SwiftPackageProductDependency */ = {
+		9DD7344E23BA226C007B98A3 /* SDWebImageMapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DD7344B23BA226C007B98A3 /* RemoteSwiftPackageReference */;
+			package = 9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
 		};
-		9DD7346F23BA23E8007B98A3 /* SwiftPackageProductDependency */ = {
+		9DD7346F23BA23E8007B98A3 /* NVActivityIndicatorView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DD7346E23BA23E8007B98A3 /* RemoteSwiftPackageReference */;
+			package = 9DD7346E23BA23E8007B98A3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
 			productName = NVActivityIndicatorView;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -9,7 +9,7 @@ s.requires_arc = true
 s.static_framework = true
 
 # 2
-s.version = "1.0.5"
+s.version = "1.0.6"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -26,6 +26,11 @@ s.source = { :git => "https://github.com/AnupSukumaran/LocPicker.git",
 
 # 7
 s.framework = "UIKit"
+s.dependency "Alamofire", "~> 4.9.1"
+s.dependency "SASLogger", "~> 1.0.0"
+s.dependency "APILib", "~> 1.0.0"
+s.dependency "SDWebImage", "~> 5.4.1"
+s.dependency "NVActivityIndicatorView/AppExtension", "~> 4.8.0"
 s.dependency 'GoogleMaps','~> 3.7.0'
 s.dependency 'GooglePlaces','~> 3.7.0'
 
