@@ -8,7 +8,7 @@ s.summary = "LocPicker lets a user select place address."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.2"
+s.version = "1.0.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -25,8 +25,8 @@ s.source = { :git => "https://github.com/AnupSukumaran/LocPicker.git",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'GoogleMaps'
-s.dependency 'GooglePlaces'
+s.dependency 'GoogleMaps','~> 3.7.0'
+s.dependency 'GooglePlaces','~> 3.7.0'
 
 # 8
 s.source_files = "LocPicker/**/*.{swift}"

@@ -6,8 +6,8 @@ target 'LocPicker' do
   use_frameworks!
 
   # Pods for LocPicker
-	pod 'GoogleMaps', :modular_headers => true
-  	pod 'GooglePlaces', :modular_headers => true
+	pod 'GoogleMaps','~> 3.7.0'
+  	pod 'GooglePlaces','~> 3.7.0'
 
   target 'LocPickerTests' do
     # Pods for testing
