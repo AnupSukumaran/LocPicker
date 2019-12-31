@@ -6,9 +6,10 @@ s.ios.deployment_target = '10.0'
 s.name = "LocPicker"
 s.summary = "LocPicker lets a user select place address."
 s.requires_arc = true
+spec.static_framework = true
 
 # 2
-s.version = "1.0.3"
+s.version = "1.0.4"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
