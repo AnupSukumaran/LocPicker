@@ -3,13 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763ADBB8EC6DA72F8D717964 /* Pods_LocPicker_LocPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA88533BCBB6950251D7B326 /* Pods_LocPicker_LocPickerTests.framework */; };
 		9DD7341823BA1E3B007B98A3 /* LocPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD7340E23BA1E3B007B98A3 /* LocPicker.framework */; };
 		9DD7341D23BA1E3B007B98A3 /* LocPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7341C23BA1E3B007B98A3 /* LocPickerTests.swift */; };
 		9DD7341F23BA1E3B007B98A3 /* LocPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD7341123BA1E3B007B98A3 /* LocPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DD7342A23BA1F8D007B98A3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342923BA1F8D007B98A3 /* Alamofire */; };
+		9DD7342D23BA1FA6007B98A3 /* SASLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342C23BA1FA6007B98A3 /* SASLogger */; };
+		9DD7343023BA1FC6007B98A3 /* APILib in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7342F23BA1FC6007B98A3 /* APILib */; };
+		9DD7343723BA21A3007B98A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7343523BA219A007B98A3 /* Assets.xcassets */; };
+		9DD7344323BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7343A23BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift */; };
+		9DD7344423BA21CB007B98A3 /* NearByPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7343B23BA21CB007B98A3 /* NearByPlacesViewModel.swift */; };
+		9DD7344523BA21CB007B98A3 /* NearByPlacesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7343C23BA21CB007B98A3 /* NearByPlacesListViewController.swift */; };
+		9DD7344623BA21CB007B98A3 /* NearbyPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7343E23BA21CB007B98A3 /* NearbyPlacesTableViewCell.swift */; };
+		9DD7344723BA21CB007B98A3 /* PickerMapViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7344023BA21CB007B98A3 /* PickerMapViewController+Ext.swift */; };
+		9DD7344823BA21CB007B98A3 /* PickerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7344123BA21CB007B98A3 /* PickerMapViewController.swift */; };
+		9DD7344923BA21CB007B98A3 /* PickerMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7344223BA21CB007B98A3 /* PickerMapViewModel.swift */; };
+		9DD7344A23BA21FC007B98A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7343223BA2135007B98A3 /* Main.storyboard */; };
+		9DD7344D23BA226C007B98A3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7344C23BA226C007B98A3 /* SDWebImage */; };
+		9DD7344F23BA226C007B98A3 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7344E23BA226C007B98A3 /* SDWebImageMapKit */; };
+		9DD7345423BA232B007B98A3 /* LocModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345123BA232B007B98A3 /* LocModel.swift */; };
+		9DD7345523BA232B007B98A3 /* NearbyPlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345223BA232B007B98A3 /* NearbyPlacesModel.swift */; };
+		9DD7345623BA232B007B98A3 /* ModelClassResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345323BA232B007B98A3 /* ModelClassResponse.swift */; };
+		9DD7346323BA23A6007B98A3 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345823BA23A6007B98A3 /* Picker.swift */; };
+		9DD7346523BA23A6007B98A3 /* GVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345A23BA23A6007B98A3 /* GVars.swift */; };
+		9DD7346623BA23A6007B98A3 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345B23BA23A6007B98A3 /* NoDataView.swift */; };
+		9DD7346723BA23A6007B98A3 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345C23BA23A6007B98A3 /* Results.swift */; };
+		9DD7346823BA23A6007B98A3 /* PlacePickerQ_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345D23BA23A6007B98A3 /* PlacePickerQ_API.swift */; };
+		9DD7346923BA23A6007B98A3 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345E23BA23A6007B98A3 /* TypeAliases.swift */; };
+		9DD7346A23BA23A6007B98A3 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7345F23BA23A6007B98A3 /* Texts.swift */; };
+		9DD7346B23BA23A6007B98A3 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7346023BA23A6007B98A3 /* Const.swift */; };
+		9DD7346C23BA23A6007B98A3 /* SetImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7346123BA23A6007B98A3 /* SetImg.swift */; };
+		9DD7346D23BA23A6007B98A3 /* Picker_PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7346223BA23A6007B98A3 /* Picker_PlaceMarker.swift */; };
+		9DD7347023BA23E8007B98A3 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 9DD7346F23BA23E8007B98A3 /* NVActivityIndicatorView */; };
+		9DD7347523BA2432007B98A3 /* UIStoryboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347223BA2432007B98A3 /* UIStoryboard+Ext.swift */; };
+		9DD7347623BA2432007B98A3 /* UIDevice+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347323BA2432007B98A3 /* UIDevice+Ext.swift */; };
+		9DD7347723BA2432007B98A3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347423BA2432007B98A3 /* UIViewController+Ext.swift */; };
+		9DD7347C23BA2465007B98A3 /* APILibrary+Ext3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7347923BA2465007B98A3 /* APILibrary+Ext3.swift */; };
+		9DD7350223BA3403007B98A3 /* Pods_LocPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A372F984D1A59E63FD2156 /* Pods_LocPicker.framework */; };
+		9DD7350323BA3403007B98A3 /* Pods_LocPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5A372F984D1A59E63FD2156 /* Pods_LocPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,13 +57,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9DD7350423BA3403007B98A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9DD7350323BA3403007B98A3 /* Pods_LocPicker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		17143879F8A510EC2769201E /* Pods-LocPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocPicker.release.xcconfig"; path = "Target Support Files/Pods-LocPicker/Pods-LocPicker.release.xcconfig"; sourceTree = "<group>"; };
+		32849D3A9EFA232DF96A6B9E /* Pods-LocPicker-LocPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocPicker-LocPickerTests.debug.xcconfig"; path = "Target Support Files/Pods-LocPicker-LocPickerTests/Pods-LocPicker-LocPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D5C1E24C39A2DCD593D5D24 /* Pods-LocPicker-LocPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocPicker-LocPickerTests.release.xcconfig"; path = "Target Support Files/Pods-LocPicker-LocPickerTests/Pods-LocPicker-LocPickerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9DD7340E23BA1E3B007B98A3 /* LocPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD7341123BA1E3B007B98A3 /* LocPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocPicker.h; sourceTree = "<group>"; };
 		9DD7341223BA1E3B007B98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DD7341723BA1E3B007B98A3 /* LocPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD7341C23BA1E3B007B98A3 /* LocPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocPickerTests.swift; sourceTree = "<group>"; };
 		9DD7341E23BA1E3B007B98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD7343223BA2135007B98A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9DD7343523BA219A007B98A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DD7343A23BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NearByPlacesListViewController+Ext.swift"; sourceTree = "<group>"; };
+		9DD7343B23BA21CB007B98A3 /* NearByPlacesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByPlacesViewModel.swift; sourceTree = "<group>"; };
+		9DD7343C23BA21CB007B98A3 /* NearByPlacesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByPlacesListViewController.swift; sourceTree = "<group>"; };
+		9DD7343E23BA21CB007B98A3 /* NearbyPlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyPlacesTableViewCell.swift; sourceTree = "<group>"; };
+		9DD7344023BA21CB007B98A3 /* PickerMapViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PickerMapViewController+Ext.swift"; sourceTree = "<group>"; };
+		9DD7344123BA21CB007B98A3 /* PickerMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerMapViewController.swift; sourceTree = "<group>"; };
+		9DD7344223BA21CB007B98A3 /* PickerMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerMapViewModel.swift; sourceTree = "<group>"; };
+		9DD7345123BA232B007B98A3 /* LocModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocModel.swift; sourceTree = "<group>"; };
+		9DD7345223BA232B007B98A3 /* NearbyPlacesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyPlacesModel.swift; sourceTree = "<group>"; };
+		9DD7345323BA232B007B98A3 /* ModelClassResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelClassResponse.swift; sourceTree = "<group>"; };
+		9DD7345823BA23A6007B98A3 /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		9DD7345A23BA23A6007B98A3 /* GVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GVars.swift; sourceTree = "<group>"; };
+		9DD7345B23BA23A6007B98A3 /* NoDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		9DD7345C23BA23A6007B98A3 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		9DD7345D23BA23A6007B98A3 /* PlacePickerQ_API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacePickerQ_API.swift; sourceTree = "<group>"; };
+		9DD7345E23BA23A6007B98A3 /* TypeAliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		9DD7345F23BA23A6007B98A3 /* Texts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		9DD7346023BA23A6007B98A3 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		9DD7346123BA23A6007B98A3 /* SetImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetImg.swift; sourceTree = "<group>"; };
+		9DD7346223BA23A6007B98A3 /* Picker_PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker_PlaceMarker.swift; sourceTree = "<group>"; };
+		9DD7347223BA2432007B98A3 /* UIStoryboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Ext.swift"; sourceTree = "<group>"; };
+		9DD7347323BA2432007B98A3 /* UIDevice+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Ext.swift"; sourceTree = "<group>"; };
+		9DD7347423BA2432007B98A3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		9DD7347923BA2465007B98A3 /* APILibrary+Ext3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APILibrary+Ext3.swift"; sourceTree = "<group>"; };
+		9DD7350123BA338B007B98A3 /* Pods_LocPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LocPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D5E12F7A59C5A916DC3FCA /* Pods-LocPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocPicker.debug.xcconfig"; path = "Target Support Files/Pods-LocPicker/Pods-LocPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		DA88533BCBB6950251D7B326 /* Pods_LocPicker_LocPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocPicker_LocPickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A372F984D1A59E63FD2156 /* Pods_LocPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +118,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD7342D23BA1FA6007B98A3 /* SASLogger in Frameworks */,
+				9DD7343023BA1FC6007B98A3 /* APILib in Frameworks */,
+				9DD7347023BA23E8007B98A3 /* NVActivityIndicatorView in Frameworks */,
+				9DD7342A23BA1F8D007B98A3 /* Alamofire in Frameworks */,
+				9DD7344F23BA226C007B98A3 /* SDWebImageMapKit in Frameworks */,
+				9DD7350223BA3403007B98A3 /* Pods_LocPicker.framework in Frameworks */,
+				9DD7344D23BA226C007B98A3 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +133,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD7341823BA1E3B007B98A3 /* LocPicker.framework in Frameworks */,
+				763ADBB8EC6DA72F8D717964 /* Pods_LocPicker_LocPickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12D2C29EB92BA44EBEC32142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7350123BA338B007B98A3 /* Pods_LocPicker.framework */,
+				F5A372F984D1A59E63FD2156 /* Pods_LocPicker.framework */,
+				DA88533BCBB6950251D7B326 /* Pods_LocPicker_LocPickerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		334D35CEDA40F6CF039A3CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D5E12F7A59C5A916DC3FCA /* Pods-LocPicker.debug.xcconfig */,
+				17143879F8A510EC2769201E /* Pods-LocPicker.release.xcconfig */,
+				32849D3A9EFA232DF96A6B9E /* Pods-LocPicker-LocPickerTests.debug.xcconfig */,
+				6D5C1E24C39A2DCD593D5D24 /* Pods-LocPicker-LocPickerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9DD7340423BA1E3B007B98A3 = {
 			isa = PBXGroup;
 			children = (
 				9DD7341023BA1E3B007B98A3 /* LocPicker */,
 				9DD7341B23BA1E3B007B98A3 /* LocPickerTests */,
 				9DD7340F23BA1E3B007B98A3 /* Products */,
+				334D35CEDA40F6CF039A3CFB /* Pods */,
+				12D2C29EB92BA44EBEC32142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +185,13 @@
 			isa = PBXGroup;
 			children = (
 				9DD7341123BA1E3B007B98A3 /* LocPicker.h */,
+				9DD7343123BA2135007B98A3 /* Storyboard */,
+				9DD7343423BA219A007B98A3 /* Resources */,
+				9DD7343823BA21CB007B98A3 /* ViewControllers */,
+				9DD7345023BA232B007B98A3 /* Model */,
+				9DD7345723BA23A6007B98A3 /* Controllers */,
+				9DD7347823BA2465007B98A3 /* APILibrary */,
+				9DD7347123BA2432007B98A3 /* Extensions */,
 				9DD7341223BA1E3B007B98A3 /* Info.plist */,
 			);
 			path = LocPicker;
@@ -84,6 +204,105 @@
 				9DD7341E23BA1E3B007B98A3 /* Info.plist */,
 			);
 			path = LocPickerTests;
+			sourceTree = "<group>";
+		};
+		9DD7343123BA2135007B98A3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7343223BA2135007B98A3 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9DD7343423BA219A007B98A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7343523BA219A007B98A3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DD7343823BA21CB007B98A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7343923BA21CB007B98A3 /* NearByPlacesListViewController */,
+				9DD7343F23BA21CB007B98A3 /* MapViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DD7343923BA21CB007B98A3 /* NearByPlacesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7343C23BA21CB007B98A3 /* NearByPlacesListViewController.swift */,
+				9DD7343A23BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift */,
+				9DD7343B23BA21CB007B98A3 /* NearByPlacesViewModel.swift */,
+				9DD7343D23BA21CB007B98A3 /* NearbyPlacesTableViewCell */,
+			);
+			path = NearByPlacesListViewController;
+			sourceTree = "<group>";
+		};
+		9DD7343D23BA21CB007B98A3 /* NearbyPlacesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7343E23BA21CB007B98A3 /* NearbyPlacesTableViewCell.swift */,
+			);
+			path = NearbyPlacesTableViewCell;
+			sourceTree = "<group>";
+		};
+		9DD7343F23BA21CB007B98A3 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7344123BA21CB007B98A3 /* PickerMapViewController.swift */,
+				9DD7344023BA21CB007B98A3 /* PickerMapViewController+Ext.swift */,
+				9DD7344223BA21CB007B98A3 /* PickerMapViewModel.swift */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		9DD7345023BA232B007B98A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7345123BA232B007B98A3 /* LocModel.swift */,
+				9DD7345223BA232B007B98A3 /* NearbyPlacesModel.swift */,
+				9DD7345323BA232B007B98A3 /* ModelClassResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DD7345723BA23A6007B98A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7345823BA23A6007B98A3 /* Picker.swift */,
+				9DD7345A23BA23A6007B98A3 /* GVars.swift */,
+				9DD7345B23BA23A6007B98A3 /* NoDataView.swift */,
+				9DD7345C23BA23A6007B98A3 /* Results.swift */,
+				9DD7345D23BA23A6007B98A3 /* PlacePickerQ_API.swift */,
+				9DD7345E23BA23A6007B98A3 /* TypeAliases.swift */,
+				9DD7345F23BA23A6007B98A3 /* Texts.swift */,
+				9DD7346023BA23A6007B98A3 /* Const.swift */,
+				9DD7346123BA23A6007B98A3 /* SetImg.swift */,
+				9DD7346223BA23A6007B98A3 /* Picker_PlaceMarker.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DD7347123BA2432007B98A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7347223BA2432007B98A3 /* UIStoryboard+Ext.swift */,
+				9DD7347323BA2432007B98A3 /* UIDevice+Ext.swift */,
+				9DD7347423BA2432007B98A3 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DD7347823BA2465007B98A3 /* APILibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7347923BA2465007B98A3 /* APILibrary+Ext3.swift */,
+			);
+			path = APILibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,16 +323,27 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DD7342223BA1E3B007B98A3 /* Build configuration list for PBXNativeTarget "LocPicker" */;
 			buildPhases = (
+				A35F88DD14673E8AAA489C7F /* [CP] Check Pods Manifest.lock */,
 				9DD7340923BA1E3B007B98A3 /* Headers */,
 				9DD7340A23BA1E3B007B98A3 /* Sources */,
 				9DD7340B23BA1E3B007B98A3 /* Frameworks */,
 				9DD7340C23BA1E3B007B98A3 /* Resources */,
+				15D0E86F76D7C86F173AF5DC /* [CP] Copy Pods Resources */,
+				9DD7350423BA3403007B98A3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LocPicker;
+			packageProductDependencies = (
+				9DD7342923BA1F8D007B98A3 /* Alamofire */,
+				9DD7342C23BA1FA6007B98A3 /* SASLogger */,
+				9DD7342F23BA1FC6007B98A3 /* APILib */,
+				9DD7344C23BA226C007B98A3 /* SDWebImage */,
+				9DD7344E23BA226C007B98A3 /* SDWebImageMapKit */,
+				9DD7346F23BA23E8007B98A3 /* NVActivityIndicatorView */,
+			);
 			productName = LocPicker;
 			productReference = 9DD7340E23BA1E3B007B98A3 /* LocPicker.framework */;
 			productType = "com.apple.product-type.framework";
@@ -122,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DD7342523BA1E3B007B98A3 /* Build configuration list for PBXNativeTarget "LocPickerTests" */;
 			buildPhases = (
+				D6AFAFB7FD66C4BDC3561D51 /* [CP] Check Pods Manifest.lock */,
 				9DD7341323BA1E3B007B98A3 /* Sources */,
 				9DD7341423BA1E3B007B98A3 /* Frameworks */,
 				9DD7341523BA1E3B007B98A3 /* Resources */,
+				B680B8E1253E55E61E4F8AA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +395,13 @@
 				Base,
 			);
 			mainGroup = 9DD7340423BA1E3B007B98A3;
+			packageReferences = (
+				9DD7342823BA1F8D007B98A3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9DD7342B23BA1FA6007B98A3 /* XCRemoteSwiftPackageReference "SASLogger" */,
+				9DD7342E23BA1FC6007B98A3 /* XCRemoteSwiftPackageReference "APILib" */,
+				9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				9DD7346E23BA23E8007B98A3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 9DD7340F23BA1E3B007B98A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -178,6 +417,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD7343723BA21A3007B98A3 /* Assets.xcassets in Resources */,
+				9DD7344A23BA21FC007B98A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +431,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15D0E86F76D7C86F173AF5DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocPicker/Pods-LocPicker-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocPicker/Pods-LocPicker-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocPicker/Pods-LocPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A35F88DD14673E8AAA489C7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B680B8E1253E55E61E4F8AA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocPicker-LocPickerTests/Pods-LocPicker-LocPickerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocPicker-LocPickerTests/Pods-LocPicker-LocPickerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocPicker-LocPickerTests/Pods-LocPicker-LocPickerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6AFAFB7FD66C4BDC3561D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocPicker-LocPickerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DD7340A23BA1E3B007B98A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD7345423BA232B007B98A3 /* LocModel.swift in Sources */,
+				9DD7346B23BA23A6007B98A3 /* Const.swift in Sources */,
+				9DD7344323BA21CB007B98A3 /* NearByPlacesListViewController+Ext.swift in Sources */,
+				9DD7344423BA21CB007B98A3 /* NearByPlacesViewModel.swift in Sources */,
+				9DD7346C23BA23A6007B98A3 /* SetImg.swift in Sources */,
+				9DD7346623BA23A6007B98A3 /* NoDataView.swift in Sources */,
+				9DD7346523BA23A6007B98A3 /* GVars.swift in Sources */,
+				9DD7344723BA21CB007B98A3 /* PickerMapViewController+Ext.swift in Sources */,
+				9DD7346D23BA23A6007B98A3 /* Picker_PlaceMarker.swift in Sources */,
+				9DD7344823BA21CB007B98A3 /* PickerMapViewController.swift in Sources */,
+				9DD7344623BA21CB007B98A3 /* NearbyPlacesTableViewCell.swift in Sources */,
+				9DD7344923BA21CB007B98A3 /* PickerMapViewModel.swift in Sources */,
+				9DD7346723BA23A6007B98A3 /* Results.swift in Sources */,
+				9DD7347723BA2432007B98A3 /* UIViewController+Ext.swift in Sources */,
+				9DD7347523BA2432007B98A3 /* UIStoryboard+Ext.swift in Sources */,
+				9DD7345623BA232B007B98A3 /* ModelClassResponse.swift in Sources */,
+				9DD7346A23BA23A6007B98A3 /* Texts.swift in Sources */,
+				9DD7347C23BA2465007B98A3 /* APILibrary+Ext3.swift in Sources */,
+				9DD7347623BA2432007B98A3 /* UIDevice+Ext.swift in Sources */,
+				9DD7345523BA232B007B98A3 /* NearbyPlacesModel.swift in Sources */,
+				9DD7344523BA21CB007B98A3 /* NearByPlacesListViewController.swift in Sources */,
+				9DD7346823BA23A6007B98A3 /* PlacePickerQ_API.swift in Sources */,
+				9DD7346323BA23A6007B98A3 /* Picker.swift in Sources */,
+				9DD7346923BA23A6007B98A3 /* TypeAliases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -325,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -339,6 +685,7 @@
 		};
 		9DD7342323BA1E3B007B98A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D5E12F7A59C5A916DC3FCA /* Pods-LocPicker.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,6 +695,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LocPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +711,7 @@
 		};
 		9DD7342423BA1E3B007B98A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17143879F8A510EC2769201E /* Pods-LocPicker.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -372,6 +721,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LocPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +737,9 @@
 		};
 		9DD7342623BA1E3B007B98A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32849D3A9EFA232DF96A6B9E /* Pods-LocPicker-LocPickerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3P3J8AFD59;
 				INFOPLIST_FILE = LocPickerTests/Info.plist;
@@ -405,7 +757,9 @@
 		};
 		9DD7342723BA1E3B007B98A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5C1E24C39A2DCD593D5D24 /* Pods-LocPicker-LocPickerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3P3J8AFD59;
 				INFOPLIST_FILE = LocPickerTests/Info.plist;
@@ -452,6 +806,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DD7342823BA1F8D007B98A3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		9DD7342B23BA1FA6007B98A3 /* XCRemoteSwiftPackageReference "SASLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AnupSukumaran/SASLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9DD7342E23BA1FC6007B98A3 /* XCRemoteSwiftPackageReference "APILib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AnupSukumaran/APILib.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		9DD7346E23BA23E8007B98A3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DD7342923BA1F8D007B98A3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD7342823BA1F8D007B98A3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9DD7342C23BA1FA6007B98A3 /* SASLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD7342B23BA1FA6007B98A3 /* XCRemoteSwiftPackageReference "SASLogger" */;
+			productName = SASLogger;
+		};
+		9DD7342F23BA1FC6007B98A3 /* APILib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD7342E23BA1FC6007B98A3 /* XCRemoteSwiftPackageReference "APILib" */;
+			productName = APILib;
+		};
+		9DD7344C23BA226C007B98A3 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		9DD7344E23BA226C007B98A3 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD7344B23BA226C007B98A3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		9DD7346F23BA23E8007B98A3 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DD7346E23BA23E8007B98A3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DD7340523BA1E3B007B98A3 /* Project object */;
 }

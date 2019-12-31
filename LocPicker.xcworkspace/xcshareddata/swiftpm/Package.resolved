@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "747c8db8d57b68d5e35275f10c92d55f982adbd4",
+          "version": "4.9.1"
+        }
+      },
+      {
+        "package": "APILib",
+        "repositoryURL": "https://github.com/AnupSukumaran/APILib.git",
+        "state": {
+          "branch": null,
+          "revision": "76d6117dde87cfae4b870cb81c9288b4afac2151",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "NVActivityIndicatorView",
+        "repositoryURL": "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+        "state": {
+          "branch": null,
+          "revision": "4a4726d15367d82bd3e9e1f01625bd76dbbb0c98",
+          "version": "4.8.0"
+        }
+      },
+      {
+        "package": "SASLogger",
+        "repositoryURL": "https://github.com/AnupSukumaran/SASLogger.git",
+        "state": {
+          "branch": null,
+          "revision": "fe9bcfc41b891e90aabf186906e01b977bed1bba",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "247f74a5d191e9c6bd601d292c99cf9fe1658930",
+          "version": "5.4.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
