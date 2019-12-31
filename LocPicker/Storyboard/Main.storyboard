@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hZ9-GH-6ly">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Picker Map View Controller-->
+        <!--Delegate-->
         <scene sceneID="kxE-4B-pKs">
             <objects>
                 <viewController storyboardIdentifier="PickerMapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Onx-rt-V7g" customClass="PickerMapViewController" customModule="LocPicker" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,9 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ai3-fD-ntN" customClass="GMSMapView" customModule="LocPicker">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ai3-fD-ntN" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="-448" width="414" height="1344"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Onx-rt-V7g" id="U3f-Hi-Eeg"/>
+                                </connections>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="center_pin" translatesAutoresizingMaskIntoConstraints="NO" id="sdN-XP-xeB">
                                 <rect key="frame" x="179.5" y="196.5" width="55" height="55"/>
@@ -51,7 +55,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="mapView" destination="Ai3-fD-ntN" id="LJa-4z-fF6"/>
+                        <outlet property="mapView" destination="Ai3-fD-ntN" id="NVg-mm-l7t"/>
                         <outlet property="pinImg" destination="sdN-XP-xeB" id="ill-ug-SxD"/>
                         <outlet property="pinVerticalCenter_Constrain" destination="DgI-jF-CHf" id="DlV-Qj-Z1A"/>
                     </connections>

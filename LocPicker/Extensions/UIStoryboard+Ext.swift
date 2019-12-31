@@ -16,7 +16,7 @@ extension UIStoryboard {
     
     
    public static func pickerStoryboard() -> UIStoryboard {
-     let bundle = Bundle(identifier: "QaptiveTech.LocationPicker")
+     let bundle = Bundle(identifier: "com.Qaptive-Tech.LocPicker")
         return UIStoryboard(name: "Main", bundle: bundle)
     }
 

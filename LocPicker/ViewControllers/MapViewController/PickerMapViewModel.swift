@@ -18,8 +18,8 @@ public protocol PickerMapViewModelDelegate: class {
 
 public class PickerMapViewModel: NSObject {
     
-    public weak var delegate: PickerMapViewModelDelegate?
-   // public weak var mainView_Delegate: PickerMapViewModelDelegate?
+    weak var delegate: PickerMapViewModelDelegate?
+    weak var mainView_Delegate: PickerMapViewModelDelegate?
     let locationManager = CLLocationManager()
 
     var nearbyPlacesModels = [NearbyPlacesModel]()
@@ -61,6 +61,7 @@ public class PickerMapViewModel: NSObject {
     
     //MARK:
     func set_Delegates(_ main: UIViewController, _ mapView: GMSMapView) {
+        
         locationManager.delegate = main as? CLLocationManagerDelegate
         locationManager.requestWhenInUseAuthorization()
         mapView.delegate = main as? GMSMapViewDelegate
@@ -170,6 +171,7 @@ public class PickerMapViewModel: NSObject {
         
        // nearByPlacesListViewController = UIStoryboard.nearByPlacesListViewController()
         guard let vc = nearByPlacesListViewController else {fatalError("MISSING nearByPlacesListViewController IN POD FILE")}
+        
         vc.funcs.nearbyPlacesModels = nearbyPlacesModels
         vc.funcs.coord = coord
         vc.funcs.delegate = main as? NearByPlacesViewModelDelegate

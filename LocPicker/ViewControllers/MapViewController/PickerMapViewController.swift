@@ -31,8 +31,11 @@ public class PickerMapViewController: UIViewController {
         super.viewDidLoad()
        
         funcs.delegate = self
+        
         mapView.settings.rotateGestures = false
+        
         funcs.set_Delegates(self, mapView)
+        
         styleMapView()
        
     }
@@ -45,6 +48,7 @@ public class PickerMapViewController: UIViewController {
      }
     
     fileprivate func styleMapView() {
+        
         do {
            // Set the map style by passing a valid JSON string.
            let kMapStyle = dictToJson_Convertor(styleForm)

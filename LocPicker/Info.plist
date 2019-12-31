@@ -18,5 +18,14 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This application detects your current location to provide you with delivery services.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This application detects your current location to provide you with delivery services.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
