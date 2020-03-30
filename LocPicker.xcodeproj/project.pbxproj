@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D0CEEE824324614006A432B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0CEEE724324614006A432B /* Metal.framework */; };
+		9D1BC8372432464F00B833E6 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0CEEE92432463B006A432B /* MetalKit.framework */; };
 		9DB2A60523BB45A2007CD6B6 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A60023BB45A2007CD6B6 /* GoogleMapsCore.framework */; };
 		9DB2A60623BB45A2007CD6B6 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A60123BB45A2007CD6B6 /* GoogleMapsM4B.framework */; };
 		9DB2A60723BB45A2007CD6B6 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A60223BB45A2007CD6B6 /* GoogleMapsBase.framework */; };
@@ -19,11 +21,9 @@
 		9DB2A61323BB460F007CD6B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61223BB460F007CD6B6 /* CoreLocation.framework */; };
 		9DB2A61623BB461A007CD6B6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61423BB461A007CD6B6 /* CoreText.framework */; };
 		9DB2A61723BB461A007CD6B6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61523BB461A007CD6B6 /* CoreTelephony.framework */; };
-		9DB2A61923BB4623007CD6B6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61823BB4623007CD6B6 /* GLKit.framework */; };
 		9DB2A61B23BB462C007CD6B6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61A23BB462C007CD6B6 /* ImageIO.framework */; };
 		9DB2A61D23BB463A007CD6B6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61C23BB463A007CD6B6 /* libc++.tbd */; };
 		9DB2A61F23BB4641007CD6B6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A61E23BB4641007CD6B6 /* libz.tbd */; };
-		9DB2A62123BB4649007CD6B6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A62023BB4649007CD6B6 /* OpenGLES.framework */; };
 		9DB2A62323BB465D007CD6B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A62223BB465D007CD6B6 /* QuartzCore.framework */; };
 		9DB2A62523BB4667007CD6B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A62423BB4667007CD6B6 /* SystemConfiguration.framework */; };
 		9DB2A62723BB466C007CD6B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A62623BB466C007CD6B6 /* UIKit.framework */; };
@@ -90,6 +90,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D0CEEE724324614006A432B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		9D0CEEE92432463B006A432B /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		9DB2A60023BB45A2007CD6B6 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		9DB2A60123BB45A2007CD6B6 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsM4B.framework; sourceTree = "<group>"; };
 		9DB2A60223BB45A2007CD6B6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
@@ -152,14 +154,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1BC8372432464F00B833E6 /* MetalKit.framework in Frameworks */,
 				9DB2A62723BB466C007CD6B6 /* UIKit.framework in Frameworks */,
+				9D0CEEE824324614006A432B /* Metal.framework in Frameworks */,
 				9DB2A62523BB4667007CD6B6 /* SystemConfiguration.framework in Frameworks */,
 				9DB2A62323BB465D007CD6B6 /* QuartzCore.framework in Frameworks */,
-				9DB2A62123BB4649007CD6B6 /* OpenGLES.framework in Frameworks */,
 				9DB2A61F23BB4641007CD6B6 /* libz.tbd in Frameworks */,
 				9DB2A61D23BB463A007CD6B6 /* libc++.tbd in Frameworks */,
 				9DB2A61B23BB462C007CD6B6 /* ImageIO.framework in Frameworks */,
-				9DB2A61923BB4623007CD6B6 /* GLKit.framework in Frameworks */,
 				9DB2A61623BB461A007CD6B6 /* CoreText.framework in Frameworks */,
 				9DB2A61723BB461A007CD6B6 /* CoreTelephony.framework in Frameworks */,
 				9DB2A61323BB460F007CD6B6 /* CoreLocation.framework in Frameworks */,
@@ -195,6 +197,8 @@
 		12D2C29EB92BA44EBEC32142 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D0CEEE92432463B006A432B /* MetalKit.framework */,
+				9D0CEEE724324614006A432B /* Metal.framework */,
 				9DB2A64D23BB563A007CD6B6 /* GoogleMapsM4B.framework */,
 				9DB2A62623BB466C007CD6B6 /* UIKit.framework */,
 				9DB2A62423BB4667007CD6B6 /* SystemConfiguration.framework */,
